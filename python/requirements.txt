@@ -1,0 +1,5 @@
+# Minimal Python deps for orchestration, analysis, and tests.
+pandas>=2.0
+matplotlib>=3.7
+pytest>=7.0
+numpy>=1.24

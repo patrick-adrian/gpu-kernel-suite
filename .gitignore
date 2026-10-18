@@ -1,0 +1,15 @@
+build/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+python/__pycache__/
+compile_commands.json
+.DS_Store
+results/*/
+!results/.gitkeep
+*.o
+*.hipfb
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
