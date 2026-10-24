@@ -1,0 +1,2 @@
+timestamp_utc,operation,variant,dtype,size,m,n,k,block_x,block_y,tile,warmup,trials,median_ms,mean_ms,stddev_ms,min_ms,max_ms,e2e_median_ms,correctness_passed,metric_name,metric_value,metric_unit,speedup_vs_baseline,device_name,device_arch,gpu_available,status,notes,raw_samples_ms
+2026-10-24T10:07:32Z,vector_add,hip_baseline,f32,65536,0,0,0,256,1,16,3,10,0,0,0,0,0,0,false,,0,,0,"AMD Instinct MI300X VF","gfx942:sramecc+:xnack-",true,error,"HIP error device kernel image is invalid at /home/gpu-kernel-suite/src/hip/kernels.hip:321 in hipGetLastError()",""

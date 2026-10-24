@@ -1,0 +1,3 @@
+Plots generated from stored results only.
+Effective bandwidth/GFLOP/s are calculated metrics, not profiler DRAM/compute peaks.
+If gpu_available was false, treat figures as host-only / non-AMD-GPU data.

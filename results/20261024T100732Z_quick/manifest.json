@@ -1,0 +1,36 @@
+{
+  "suite": "quick",
+  "started_utc": "2026-10-24T10:07:32.754086+00:00",
+  "host_only": false,
+  "runs": [
+    {
+      "index": 0,
+      "cmd": [
+        "/home/gpu-kernel-suite/build/gpu_suite",
+        "--kernel",
+        "vector_add",
+        "--variant",
+        "hip_baseline",
+        "--seed",
+        "42",
+        "--warmup",
+        "3",
+        "--trials",
+        "10",
+        "--output-json",
+        "/home/gpu-kernel-suite/results/20261024T100732Z_quick/run_0000_vector_add_hip_baseline.json",
+        "--output-csv",
+        "/home/gpu-kernel-suite/results/20261024T100732Z_quick/benchmarks.csv",
+        "--size",
+        "65536"
+      ],
+      "returncode": 1,
+      "stdout": "operation=vector_add variant=hip_baseline status=error\ncorrectness=FAIL HIP error device kernel image is invalid at /home/gpu-kernel-suite/src/hip/kernels.hip:321 in hipGetLastError()\nmedian_ms=0 mean_ms=0 stddev_ms=0\nmetric= value=0 \ndevice=AMD Instinct MI300X VF arch=gfx942:sramecc+:xnack-\nwrote /home/gpu-kernel-suite/results/20261024T100732Z_quick/run_0000_vector_add_hip_baseline.json\nwrote /home/gpu-kernel-suite/results/20261024T100732Z_quick/benchmarks.csv\n",
+      "stderr": "",
+      "json": "/home/gpu-kernel-suite/results/20261024T100732Z_quick/run_0000_vector_add_hip_baseline.json"
+    }
+  ],
+  "note": "UNBENCHMARKED on AMD GPU until executed under ROCm/HIP with a device.",
+  "finished_utc": "2026-10-24T10:07:32.882752+00:00",
+  "failures": 1
+}
